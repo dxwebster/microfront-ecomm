@@ -108,6 +108,9 @@ Ambas as bibliotecas são ótimas para acelerar o processo de design e desenvolv
 ### MongoDB como Banco de dados não relacional
 O MongoDB é uma opção popular para armazenamento de dados devido à sua escalabilidade e flexibilidade. Para armazenar avaliações de produtos, seria melhor usar um banco de dados dedicado, como o MongoDB ou outro banco de dados não relacional. Isso permitirá que você armazene as avaliações com eficiência e obtenha um bom desempenho ao recuperá-las.
 
+### Mongoose ORM
+Um ORM pode ajudar a simplificar o código de acesso ao banco de dados, permitindo que você trabalhe com objetos em vez de SQL. Isso pode tornar o seu código mais fácil de ler e manter, além de permitir que você se concentre nas regras de negócios e na lógica da aplicação em vez de se preocupar com os detalhes do acesso ao banco de dados. Existem vários ORMs disponíveis para o MongoDB em Node.js, como o Mongoose, que é uma biblioteca popular de modelagem de objetos para o MongoDB em Node.js. O Mongoose fornece recursos como validação de esquema, consultas avançadas, ganchos e relacionamentos, que podem ser úteis em muitos projetos.
+
 * * * * *
 
 Features
