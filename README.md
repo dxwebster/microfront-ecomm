@@ -35,7 +35,7 @@ O Jest é um framework de testes de código aberto criado pelo Facebook e otimiz
 ### Context API
 permite o compartilhamento de estados entre vários componentes sem a necessidade de passar props manualmente. É uma maneira mais simples e escalável de gerenciar estados em componentes.
 
-### [Tailwind](https://tailwindcss.com/) + [Radix UI](https://www.radix-ui.com/) para estilos
+### [Tailwind](https://tailwindcss.com/) + [Radix UI](https://www.radix-ui.com/)
 Ambas as bibliotecas são ótimas para acelerar o processo de design e desenvolvimento e deixando mais os estilos mais consistentes. Tailwind é particularmente útil para desenvolvimento rápido de protótipos, enquanto Radix UI oferece componentes de alta qualidade e personalizáveis.
 
 ### [Prismic](https://prismic.io/) como CMS
@@ -76,10 +76,10 @@ Com o React Router, você pode facilmente integrar o módulo de carrinho com out
 ### Oauth para autenticação
 É um protocolo de autorização que permite que aplicativos acessem informações de contas de usuários sem a necessidade de obter suas credenciais de login e senhas, tornando o processo de login mais fácil e conveniente para os usuários pois melhora segurança e privacidade.
 
-### Remix para SSR na página de conta
+### Remix para SSR
 Melhora a velocidade de carregamento da página para trazer os dados de usuário.
 
-### Vanilla-Extract para estilos
+### Vanilla-Extract
 É uma biblioteca de estilo que permite escrever estilos em CSS com JavaScript e usar CSS-in-JS sem o custo extra de abstração. Ele oferece uma sintaxe intuitiva, autogeração de nomes de classes, tipagem estática e muito mais.
 
 ### React-Router
@@ -102,7 +102,7 @@ O Apollo Client é uma biblioteca de gerenciamento de estado que funciona bem co
 ### Apollo Server para um BFF (Backend for Frontend)
 O Apollo Server é uma biblioteca GraphQL para criação de servidores, permitindo criar um servidor GraphQL para atender às necessidades específicas do front-end, ter mais controle sobre a API GraphQL, permitindo a criação de resolvers personalizados e outras funcionalidades importantes.
 
-### [Tailwind](https://tailwindcss.com/) + [Radix UI](https://www.radix-ui.com/) para estilos
+### [Tailwind](https://tailwindcss.com/) + [Radix UI](https://www.radix-ui.com/)
 Ambas as bibliotecas são ótimas para acelerar o processo de design e desenvolvimento e deixando mais os estilos mais consistentes. Tailwind é particularmente útil para desenvolvimento rápido de protótipos, enquanto Radix UI oferece componentes de alta qualidade e personalizáveis.
 
 ### MongoDB como Banco de dados não relacional
