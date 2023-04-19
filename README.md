@@ -44,7 +44,7 @@ Prismic é uma opção popular e sólida para gerenciamento de conteúdo, permit
 ### REST API
 É uma arquitetura de API amplamente utilizada que utiliza operações HTTP (GET, POST, PUT, DELETE) para transferir dados. É simples e escalável.
 
-### SSR e roteamento usando Next.js 13
+### SSR e Rotas com Next.js 13
 Next.js é uma ótima escolha para desenvolvimento de ecommerce, pois permite o SSR, roteamento fácil e outras funcionalidades importantes para o desenvolvimento de um site de comércio eletrônico.
 
 * * * * *
