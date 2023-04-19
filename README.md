@@ -113,14 +113,14 @@ O MongoDB é uma opção popular para armazenamento de dados devido à sua escal
 Features
 ========
 
-1.  Página principal:
+### 1.  Página principal + Loja:
 
 -   Banners com promoções e ofertas: exibe banners promocionais ou de oferta para atrair a atenção do cliente.
 -   Últimos itens visualizados: mostra os últimos produtos visualizados pelo usuário.
 -   Vitrine de produtos: exibe uma lista de produtos selecionados, geralmente com base em uma categoria ou promoção específica.
 -   Detalhes do produto: exibe informações detalhadas sobre um produto específico, como descrição, preço, imagens, comentários, etc.
 
-1.  Carrinho + Checkout:
+### 2.  Carrinho + Checkout:
 
 -   Gerenciar carrinho (ajustar quantidade): permite ao usuário adicionar ou remover produtos do carrinho e ajustar a quantidade de cada item.
 -   Ver valores dos itens da compra: exibe o valor total dos itens do carrinho, além de outros detalhes como frete, impostos, etc.
@@ -129,13 +129,13 @@ Features
 -   Dados do pagamento: área que permite inserir as informações de pagamento, como número do cartão, data de expiração, código de segurança, etc.
 -   Finalizar pagamento: botão que finaliza o processo de compra e gera a transação financeira.
 
-1.  Conta:
+### 3.  Conta:
 
 -   Login e cadastro de usuário: permite aos usuários criar uma conta ou fazer login com uma conta existente.
 -   Gestão de dados do usuário: possibilidade de visualizar e editar informações pessoais do usuário, como nome, endereço de e-mail, endereço de entrega, etc.
 -   Sign Out: permite ao usuário encerrar a sessão e sair da conta.
 
-1.  Review de produtos:
+### 4.  Review de produtos:
 
 -   Adicionar avaliações: permite aos usuários adicionarem avaliações para produtos específicos, incluindo a capacidade de adicionar uma classificação, um título e um texto explicando sua experiência com o produto.
 -   Classificação média do produto: calcula automaticamente a classificação média do produto com base em todas as avaliações recebidas.
