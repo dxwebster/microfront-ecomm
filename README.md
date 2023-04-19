@@ -53,7 +53,7 @@ Next.js é uma ótima escolha para desenvolvimento de ecommerce, pois permite o 
 ==========================
 
 ### ReactJS + Typescript
-É uma boa escolha, já que React é uma biblioteca popular e bem estabelecida e Typescript ajudará a evitar erros comuns de digitação e a aumentar a escalabilidade do código.
+React é uma biblioteca popular e bem estabelecida e Typescript ajudará a evitar erros comuns de digitação e a aumentar a escalabilidade do código.
 
 ### Zustand
 É uma biblioteca de gerenciamento de estado leve e fácil de usar que pode ser uma boa escolha para gerenciar o estado do carrinho.
@@ -71,7 +71,7 @@ Com o React Router, você pode facilmente integrar o módulo de carrinho com out
 
 
 ### ReactJS + Typescript
-É uma boa escolha, já que React é uma biblioteca popular e bem estabelecida e Typescript ajudará a evitar erros comuns de digitação e a aumentar a escalabilidade do código.
+React é uma biblioteca popular e bem estabelecida e Typescript ajudará a evitar erros comuns de digitação e a aumentar a escalabilidade do código.
 
 ### Oauth para autenticação
 É um protocolo de autorização que permite que aplicativos acessem informações de contas de usuários sem a necessidade de obter suas credenciais de login e senhas, tornando o processo de login mais fácil e conveniente para os usuários pois melhora segurança e privacidade.
@@ -91,7 +91,7 @@ Melhora a velocidade de carregamento da página para trazer os dados de usuário
 ==========================
 
 ### ReactJS + Typescript
-para a construção do front-end como essa tecnologia já está sendo usada em outros módulos, seria uma escolha natural para manter a consistência do código.
+React é uma biblioteca popular e bem estabelecida e Typescript ajudará a evitar erros comuns de digitação e a aumentar a escalabilidade do código.
 
 ### GraphQL para a API
 Em vez de usar REST, você pode optar por usar GraphQL para sua API. GraphQL é uma linguagem de consulta para suas APIs e oferece muitas vantagens em relação ao REST, como a capacidade de buscar apenas os dados necessários, reduzir o número de solicitações de rede e melhorar o desempenho geral.
