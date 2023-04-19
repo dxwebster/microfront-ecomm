@@ -1,4 +1,4 @@
-Arquitetura Ecommerce - Monorepo microfront-end
+Arquitetura Ecommerce - Monorepo microfrontend
 ===============================================
 
 Tecnologias
