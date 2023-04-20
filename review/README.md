@@ -1,6 +1,24 @@
 # Módulo - Review de Produtos
 
-### Cria projeto com vite
+## Como rodar o projeto
+
+```js
+// instala dependências
+npm install
+
+// Da start no mongodb-community
+`brew services start mongodb-community`
+
+// Roda o servidor
+`npm run server`
+
+// Roda o front
+`npm run dev`
+
+```
+Conecta no banco pela extensão MongoDB for VSCode, clicando com botão direito e Conectar na conection configurada: localhost:27017
+
+### Como criar esse projeto
 
 npm create vite@latest
 
@@ -11,12 +29,12 @@ npm create vite@latest
 - `npm install graphql`
 - `npm install mongoose`
 - `npm install @types/mongodb`
+- `npm install nodemon`
 
-### Instala e configura nodemon
+### Configura nodemon
 
-`npm install nodemon`
+Cria arquivo nodemon.json na raíz
 
-nodemon.json
 ```json
 {
   "watch": ["src"],
@@ -25,20 +43,16 @@ nodemon.json
   "exec": "ts-node ./server/index.ts"
 }
 ```
+Adiciona script no package.json
+
+- `"server": "nodemon --watch"`
 
 ### Instala pacote para rodar Mongo DB local
 
 - `brew tap mongodb/brew`
 - `brew install mongodb-community`
 
-### Adiciona script no package.json
+### Instala a extensão MongoDB for VSCode
 
-- `"server": "nodemon --watch"`
-
-### Roda o mongodb local
-
-- `brew services start mongodb-community`
-
-### Roda o servidor
-
-- `npm run server`
+Acessa a extensão no menu lateral, clica em Add Conection.
+Coloque localhost como user e 27017 na porta.
