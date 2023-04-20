@@ -1,18 +1,16 @@
 # Módulo - Review de Produtos
 
-## Como criar esse projeto?
-
 ### Cria projeto com vite
 
 npm create vite@latest
 
 ## Instala dependências:
 
-`npm install apollo-server`
-`npm install @apollo/client`
-`npm install graphql`
-`npm install mongoose`
-`npm install @types/mongodb`
+- `npm install apollo-server`
+- `npm install @apollo/client`
+- `npm install graphql`
+- `npm install mongoose`
+- `npm install @types/mongodb`
 
 ### Instala e configura nodemon
 
@@ -30,17 +28,17 @@ nodemon.json
 
 ### Instala pacote para rodar Mongo DB local
 
-`brew tap mongodb/brew`
-`brew install mongodb-community`
+- `brew tap mongodb/brew`
+- `brew install mongodb-community`
 
 ### Adiciona script no package.json
 
-`"server": "nodemon --watch"`
+- `"server": "nodemon --watch"`
 
 ### Roda o mongodb local
 
-`brew services start mongodb-community`
+- `brew services start mongodb-community`
 
 ### Roda o servidor
 
-`npm run server`
+- `npm run server`
