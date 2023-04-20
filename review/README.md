@@ -2,27 +2,21 @@
 
 ## Como rodar o projeto
 
-```js
-// instala dependências
-npm install
+- instala dependências: `npm install`
 
-// Da start no mongodb-community
-`brew services start mongodb-community`
+- Inicia o mongodb-community: `brew services start mongodb-community`
 
-// Roda o servidor
-`npm run server`
+- Roda o servidor: `npm run server`
 
-// Roda o front
-`npm run dev`
+- Roda o front: `npm run dev`
 
-```
-Conecta no banco pela extensão MongoDB for VSCode, clicando com botão direito e Conectar na conection configurada: localhost:27017
+- **Conecta no banco pela extensão MongoDB for VSCode, clicando com botão direito e conectar na conection configurada: localhost:27017**
 
-### Como criar esse projeto
+### Como criar esse projeto do zero
 
 npm create vite@latest
 
-## Instala dependências:
+### Instala dependências:
 
 - `npm install apollo-server`
 - `npm install @apollo/client`
