@@ -1,3 +1,6 @@
+# Módulo - Review de Produtos
+
+## Como criar esse projeto?
 
 ### Cria projeto com vite
 
@@ -15,8 +18,8 @@ npm create vite@latest
 
 `npm install nodemon`
 
+nodemon.json
 ```json
-// nodemon.json
 {
   "watch": ["src"],
   "ext": "ts,json",
