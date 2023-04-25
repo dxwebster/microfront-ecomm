@@ -24,8 +24,8 @@ System.register(['react', 'react-dom'], function (exports, module) {
       })();
 
       const remotesMap = {
-        remoteApp1: () => module.import('rwebpackremote'),
-        remoteApp2: () => module.import('rollup_spa'),
+        remoteApp1: () => module.import('remoteApp1'),
+        remoteApp2: () => module.import('remoteApp2'),
       };
 
       const processModule = mod => {

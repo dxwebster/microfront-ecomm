@@ -37,11 +37,11 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: 'rwebpackremote',
+      name: 'remoteApp1',
       library: { type: 'system' },
       filename: 'remoteEntry.js',
       remotes: {
-        rollup_spa: 'rollup_spa',
+        remoteApp2: 'remoteApp2',
       },
       exposes: {
         './Button': './src/Button',

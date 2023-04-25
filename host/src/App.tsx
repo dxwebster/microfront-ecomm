@@ -2,6 +2,7 @@ import React, { useState } from "react"
 
 const Button = React.lazy(() => import("remoteApp1/Button"))
 const Header = React.lazy(() => import("remoteApp2/Header"))
+// const BookList = React.lazy(() => import("remoteApp3/BookList"))
 
 function App() {
   const [count, setCount] = useState(0)

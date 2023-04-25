@@ -2,7 +2,7 @@ import LocalButton from './Button';
 import React from 'react';
 
 import Button from './Button';
-const Header = React.lazy(() => import('rollup_spa/Header'));
+const Header = React.lazy(() => import('remoteApp2/Header'));
 
 const App = () => (
   <div>

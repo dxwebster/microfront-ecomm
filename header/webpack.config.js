@@ -11,11 +11,9 @@ module.exports = {
     libraryExport: 'main',
     publicPath: 'http://localhost:8080/',
   },
-
   resolve: {
     extensions: ['.jsx', '.js', '.json'],
   },
-
   devServer: {
     static: {
       directory: path.join(__dirname),
@@ -27,7 +25,6 @@ module.exports = {
       'Access-Control-Allow-Headers': 'X-Requested-With, content-type, Authorization',
     },
   },
-
   optimization: {
     minimize: true,
   },
@@ -52,7 +49,7 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: 'rollup_spa',
+      name: 'remoteApp2',
       library: { type: 'system' },
       filename: 'remoteEntry.js',
       remotes: {},
