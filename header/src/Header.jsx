@@ -9,6 +9,6 @@ export default () => (
       color: 'white',
     }}
   >
-    Header do projeto sidecart em JS
+    Header
   </div>
 );
