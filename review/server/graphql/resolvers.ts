@@ -15,7 +15,7 @@ import {
 
 export const resolvers = {
   Query: {
-    getBooks: async (): Promise<getBooksResponse> => {
+    books: async (): Promise<getBooksResponse> => {
       try {
         const books = await BookModel.find()
         return books

@@ -8,7 +8,7 @@ export const typeDefs = gql`
   }
 
   type Query {
-    getBooks: [Book!]!
+    books: [Book!]!
   }
 
   input BookInput {
