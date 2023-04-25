@@ -9,7 +9,7 @@ import transformHtml from "./plugins/vite-plugin-transform-html"
 // https://vitejs.dev/config/
 export default defineConfig({
   optimizeDeps: {
-    exclude: ["foo_app1", "foo_rollup_spa"],
+    exclude: ["remoteApp1", "remoteApp2"],
   },
   plugins: [
     viteExternalsPlugin({
@@ -19,8 +19,8 @@ export default defineConfig({
     reactRefresh(),
     federation({
       remotes: {
-        foo_app1: "rwebpackremote",
-        foo_rollup_spa: "rollup_spa",
+        remoteApp1: "rwebpackremote",
+        remoteApp2: "rollup_spa",
       },
       shared: {
         react: {

@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 
-const Button = React.lazy(() => import("foo_app1/Button"))
-const Header = React.lazy(() => import("foo_rollup_spa/Header"))
+const Button = React.lazy(() => import("remoteApp1/Button"))
+const Header = React.lazy(() => import("remoteApp2/Header"))
 
 function App() {
   const [count, setCount] = useState(0)
