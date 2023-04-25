@@ -1,12 +1,8 @@
-Arquitetura Ecommerce - Monorepo microfrontend
+Arquitetura Ecommerce - Microfrontend
 ===============================================
 
 Tecnologias
 ===========
-
-### [Monorepo](https://lerna.js.org/) com Lerna.js
-
-O Monorepo é uma técnica de desenvolvimento que consiste em manter vários projetos dentro de um mesmo repositório. No projeto em questão, foi utilizado o Lerna.js como ferramenta de gerenciamento de pacotes e modularidade do código.
 
 ### [Module Federation](https://webpack.js.org/concepts/module-federation/)
 
