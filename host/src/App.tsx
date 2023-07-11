@@ -1,8 +1,8 @@
 import React, { useState } from "react"
 
-const Button = React.lazy(() => import("remoteApp1/Button"))
-const Header = React.lazy(() => import("remoteApp2/Header"))
-// const BookList = React.lazy(() => import("remoteApp3/BookList"))
+const Button = React.lazy(() => import("ButtonApp/Button"))
+const Header = React.lazy(() => import("HeaderApp/Header"))
+// const App2 = React.lazy(() => import("HostApp/App"))
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +18,7 @@ function App() {
         <React.Suspense fallback="Loading App...">
           <Header />
           <Button />
+          {/* <App2 /> */}
         </React.Suspense>
       </header>
     </div>

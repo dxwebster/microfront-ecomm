@@ -1,7 +1,7 @@
 import { defineConfig } from "vite"
 import reactRefresh from "@vitejs/plugin-react-refresh"
 import { viteExternalsPlugin } from "vite-plugin-externals"
-import pkg from "./package.json"
+import { shareAll } from "@softarc/native-federation/build"
 
 import federation from "./plugins/vite-plugin-react-federation"
 import transformHtml from "./plugins/vite-plugin-transform-html"
@@ -9,7 +9,7 @@ import transformHtml from "./plugins/vite-plugin-transform-html"
 // https://vitejs.dev/config/
 export default defineConfig({
   optimizeDeps: {
-    exclude: ["remoteApp1", "remoteApp2", "remoteApp3"],
+    exclude: ["ButtonApp", "HeaderApp", "HostApp"],
   },
   plugins: [
     viteExternalsPlugin({
@@ -19,19 +19,17 @@ export default defineConfig({
     reactRefresh(),
     federation({
       remotes: {
-        remoteApp1: "remoteApp1",
-        remoteApp2: "remoteApp2",
-        remoteApp3: "remoteApp3",
+        ButtonApp: "ButtonApp",
+        HeaderApp: "HeaderApp",
+        HostApp: "HostApp",
       },
       shared: {
-        react: {
+        ...shareAll({
           singleton: true,
-          requiredVersion: pkg.dependencies.react,
-        },
-        "react-dom": {
-          singleton: true,
-          requiredVersion: pkg.dependencies["react-dom"],
-        },
+          strictVersion: true,
+          requiredVersion: "auto",
+          includeSecondaries: false,
+        }),
       },
     }),
     transformHtml(),

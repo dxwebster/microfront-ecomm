@@ -49,7 +49,7 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: 'remoteApp2',
+      name: 'HeaderApp',
       library: { type: 'system' },
       filename: 'remoteEntry.js',
       remotes: {},

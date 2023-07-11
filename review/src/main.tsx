@@ -5,9 +5,15 @@ import { ApolloProvider } from "@apollo/client"
 import { client } from "./graphql/client"
 import { createRoot } from "react-dom/client"
 
+import { initFederation } from "@softarc/native-federation"
+;(async () => {
+  await initFederation()
+  await import("./App")
+})()
+
 const container = document.getElementById("app")
 
-const root = createRoot(container!) // createRoot(container!) if you use TypeScript
+const root = createRoot(container!)
 
 root.render(
   <ApolloProvider client={client}>

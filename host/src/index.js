@@ -24,8 +24,8 @@ System.register(['react', 'react-dom'], function (exports, module) {
       })();
 
       const remotesMap = {
-        remoteApp1: () => module.import('remoteApp1'),
-        remoteApp2: () => module.import('remoteApp2'),
+        ButtonApp: () => module.import('ButtonApp'),
+        HeaderApp: () => module.import('HeaderApp'),
       };
 
       const processModule = mod => {
@@ -68,13 +68,13 @@ System.register(['react', 'react-dom'], function (exports, module) {
 
       var Button = /*#__PURE__*/ React.lazy(function () {
         return __federation__
-          .ensure('remoteApp1')
+          .ensure('ButtonApp')
           .then(remote => remote.get('./Button'))
           .then(factory => factory());
       });
       var Header = /*#__PURE__*/ React.lazy(function () {
         return __federation__
-          .ensure('remoteApp2')
+          .ensure('HeaderApp')
           .then(remote => remote.get('./Header'))
           .then(factory => factory());
       });

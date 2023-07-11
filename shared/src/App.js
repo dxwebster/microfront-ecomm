@@ -2,7 +2,7 @@ import LocalButton from './Button';
 import React from 'react';
 
 import Button from './Button';
-const Header = React.lazy(() => import('remoteApp2/Header'));
+const Header = React.lazy(() => import('HeaderApp/Header'));
 
 const App = () => (
   <div>

@@ -37,11 +37,11 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: 'remoteApp1',
+      name: 'ButtonApp',
       library: { type: 'system' },
       filename: 'remoteEntry.js',
       remotes: {
-        remoteApp2: 'remoteApp2',
+        HeaderApp: 'HeaderApp',
       },
       exposes: {
         './Button': './src/Button',
